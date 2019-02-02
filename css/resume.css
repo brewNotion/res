@@ -192,6 +192,13 @@ a:hover, a:focus, a:active {
   color: #824027;
 }
 
+p {
+  text-indent: 2em;
+}
+
+.no-indent {
+  text-indent: 0;
+}
 .project {
   padding-left:20px;
 }
