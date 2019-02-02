@@ -150,8 +150,8 @@ p.lead {
 }
 
 section.resume-section {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
+  padding-top: 7rem !important;
+  padding-bottom: 7rem !important;
   max-width: 75rem;
 }
 
@@ -195,15 +195,23 @@ a:hover, a:focus, a:active {
 .project {
   padding-left:20px;
 }
+
+.project-description{
+  padding-bottom:20px;
+}
 .side-heading {
  text-transform: uppercase;
  font-weight: 400;
  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
- font-size: 1.2rem;
+ font-size: 0.9em;
  color: grey;
 }
 
 .project-stack {
  margin-top:0;
  padding:0;
+}
+
+.institute::before{
+  content: 'Institute';
 }
